@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Agenda</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="agenda">
+      <h1>📅 Mi Agenda</h1>
+      <p class="subtitulo">Organiza tus tareas del día</p>
+
+      <div class="formulario">
+        <input type="text" id="tareaInput" placeholder="Escribe una tarea..." />
+        <input type="date" id="fechaInput" />
+        <button id="agregarBtn">Añadir</button>
+      </div>
+
+      <div id="listaTareas" class="lista"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
